@@ -1,0 +1,33 @@
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\ApplicationInsights.config
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\roslyn\csc.exe
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\roslyn\vbc.exe
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\roslyn\VBCSCompiler.exe
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Sports Management System.dll.config
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Sports Management System.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Sports Management System.pdb
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.AI.Web.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.AI.Web.xml
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\obj\Debug\Sports Management System.csprojResolveAssemblyReference.cache
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\obj\Debug\Sports Management System.dll
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\obj\Debug\Sports Management System.pdb
