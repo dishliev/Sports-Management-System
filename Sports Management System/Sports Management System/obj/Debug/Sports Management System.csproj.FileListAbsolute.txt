@@ -28,6 +28,6 @@ C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management Sy
 C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.ApplicationInsights.xml
 C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\obj\Debug\Sports Management System.csprojResolveAssemblyReference.cache
 C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\obj\Debug\Sports Management System.dll
 C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\obj\Debug\Sports Management System.pdb
+C:\Users\DISHLIEV\Documents\GitHub\Sports-Management-System\Sports Management System\Sports Management System\obj\Debug\Sports Management System.csprojResolveAssemblyReference.cache

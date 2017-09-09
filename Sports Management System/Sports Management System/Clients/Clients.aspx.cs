@@ -1,10 +1,7 @@
 ﻿namespace Sports_Management_System.Clients
 {
     using System;
-    using System.Collections.Generic;
-    using System.Configuration;
     using System.Data;
-    using System.Data.SqlClient;
     using System.Web.UI.WebControls;
     public partial class Clients : System.Web.UI.Page
     {
@@ -16,9 +13,13 @@
            repCustomers.DataBind();       
         }
 
-        protected void client_ItemCommand(object source, RepeaterCommandEventArgs e)
+        protected void repCustomers_ItemCommand(object source, RepeaterCommandEventArgs e)
         {
-
+            if (e.CommandName == "delete")
+            {
+                var id = Convert.ToInt16(e.CommandArgument.ToString());
+                DBQuery.DeleteCustomer(id);
+            }
         }
     }
 }

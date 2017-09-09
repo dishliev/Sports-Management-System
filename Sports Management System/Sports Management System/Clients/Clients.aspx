@@ -14,20 +14,20 @@
     </div>
 
     <div class="col-md-10">
-        <table class="table table-hover table-bordered">
-            <thead>
+        <table id="clientTable" class="table table-hover table-bordered">
+            <tr>
                 <th>Name</th>
                 <th>Surname</th>
                 <th>Age</th>
                 <th>Email</th>
                 <th>Address</th>
                 <th>Phone</th>
-            </thead>
-            <asp:Repeater runat="server" ID="repCustomers">
+            </tr>
+            <asp:Repeater runat="server" ID="repCustomers" OnItemCommand="repCustomers_ItemCommand" >
                 <ItemTemplate>
-                    <tbody>
+                    <tr>
                         <asp:HiddenField runat="server" ID="hfclientId" Value='<%# Eval("clientId") %>' />
-
+                     
                         <td><%# Eval("name") %></td>
                         <td><%# Eval("Surname") %></td>
                         <td><%# Eval("age") %></td>
@@ -37,9 +37,9 @@
                         <td>
                             <asp:LinkButton CssClass="btn btn-sm btn-info" runat="server" ID="LinkButton1" Text="open" />
                             <asp:LinkButton CssClass="btn btn-sm btn-warning" runat="server" ID="edit" Text="edit" />
-                            <asp:LinkButton CssClass="btn btn-sm btn-danger" runat="server" ID="delete" Text="delete" />
+                            <asp:LinkButton CssClass="btn btn-sm btn-danger" runat="server" ID="delete" Text="delete" CommandName="delete" CommandArgument='<%# Eval("clientId") %>' />
                         </td>
-                    </tbody>
+                    </tr>
                 </ItemTemplate>
             </asp:Repeater>
         </table>

@@ -1,6 +1,7 @@
 ﻿namespace Sports_Management_System
 {
     using Sports_Management_System.Models;
+    using System;
     using System.Collections.Generic;
     using System.Configuration;
     using System.Data;
@@ -8,7 +9,7 @@
     public class DBQuery
     {
         private static string sqlConn = ConfigurationManager.ConnectionStrings["ConnectionString"].ConnectionString;
-        public static DataTable Clients ()
+        public static DataTable Clients()
         {
             using (SqlConnection con = new SqlConnection(sqlConn))
             {
@@ -54,8 +55,30 @@
                                     contacts["email"], contacts["address"],
                                     contacts["phone"]);
                     }
-                    return dt;                 
+                    return dt;
                 }
+
+            }
+        }
+        public static void DeleteCustomer(int id)
+        {
+            SqlConnection con = new SqlConnection(sqlConn);
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.CommandText = "DELETE FROM clients WHERE clientId =@clientId";
+                cmd.Parameters.AddWithValue("@clientId", id);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            {
+            }
+            finally
+            {
+                con.Close();
+
             }
         }
     }
