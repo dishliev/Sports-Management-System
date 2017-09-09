@@ -81,5 +81,30 @@
 
             }
         }
+        public static void AddClient(ModelClient mc)
+        {
+            SqlConnection con = new SqlConnection(sqlConn);
+            try
+            {
+                con.Open();
+                SqlCommand cmd = con.CreateCommand();
+                cmd.CommandType = System.Data.CommandType.Text;
+                cmd.CommandText = "insert into clients (name, surname, age, email, address, phone) values(@name, @surname, @age, @email, @address, @phone)";
+                cmd.Parameters.AddWithValue("@name", mc.Name);
+                cmd.Parameters.AddWithValue("@surname", mc.Surname);
+                cmd.Parameters.AddWithValue("@age", mc.Age);
+                cmd.Parameters.AddWithValue("@email", mc.Email);
+                cmd.Parameters.AddWithValue("@address", mc.Address);
+                cmd.Parameters.AddWithValue("@phone", mc.Phone);
+                cmd.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            {
+            }
+            finally
+            {
+                con.Close();
+            }
+        }
     }
 }

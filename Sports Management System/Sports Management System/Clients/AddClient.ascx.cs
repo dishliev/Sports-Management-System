@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Sports_Management_System.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -12,6 +13,18 @@ namespace Sports_Management_System.Clients
         protected void Page_Load(object sender, EventArgs e)
         {
 
+        }
+        protected void save_Click(object sender, EventArgs e)
+        {
+            ModelClient mc = new ModelClient();
+            mc.Name = name.Text;
+            mc.Surname = surname.Text;
+            mc.Age = Convert.ToInt16(age.Text);
+            mc.Email = email.Text;
+            mc.Address = address.Text;
+            mc.Phone = phone.Text;
+
+            DBQuery.AddClient(mc);
         }
     }
 }

@@ -2,9 +2,10 @@
 
 <%@ Register Src="~/Clients/AddClient.ascx" TagPrefix="uc1" TagName="AddClient" %>
 
+
 <asp:Content runat="server" ContentPlaceHolderID="content">
 
-    <asp:LinkButton runat="server" ID="btnNewClient" CssClass="btn btn-success btn-sm" Text="new client">     
+    <asp:LinkButton runat="server" ID="btnNewClient" data-toggle="modal" data-target="#myModal" CssClass="btn btn-success btn-sm" Text="new client">     
     </asp:LinkButton>
 
     <div class="input-group">
@@ -23,11 +24,11 @@
                 <th>Address</th>
                 <th>Phone</th>
             </tr>
-            <asp:Repeater runat="server" ID="repCustomers" OnItemCommand="repCustomers_ItemCommand" >
+            <asp:Repeater runat="server" ID="repCustomers" OnItemCommand="repCustomers_ItemCommand">
                 <ItemTemplate>
                     <tr>
                         <asp:HiddenField runat="server" ID="hfclientId" Value='<%# Eval("clientId") %>' />
-                     
+
                         <td><%# Eval("name") %></td>
                         <td><%# Eval("Surname") %></td>
                         <td><%# Eval("age") %></td>
@@ -44,4 +45,27 @@
             </asp:Repeater>
         </table>
     </div>
+
+    <div class="container">
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Add Client</h4>
+                    </div>
+                    <div class="modal-body">
+                        <uc1:AddClient runat="server" ID="AddClient" />
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </asp:Content>
